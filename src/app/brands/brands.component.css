@@ -1,0 +1,13 @@
+/* brand start */
+.brandSection {
+    padding: 3rem 0rem;
+    border-top: 1px solid #f1f4f8;
+    border-bottom: 1px solid #f1f4f8;
+}
+
+.brand-img {
+    width: 150px;
+    height: auto;
+}
+
+/* brand end */

@@ -1,0 +1,47 @@
+
+.testimonialSection{
+    padding: 60px 0px;
+}
+.carousel-inner {
+    position: relative;
+    width: 65% !important;
+    overflow: hidden;
+  }
+#myCarousel{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .carousel-item{
+    height: 200px;
+} */
+.carousel-control-prev span,
+.carousel-control-next span {
+    background-color: #335EEA !important;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media (max-width:998px) {
+    .carousel-control-prev span,
+.carousel-control-next span {
+    background-color: #335EEA !important;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.carousel-inner {
+    position: relative;
+    width: 75% !important;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,28 @@
+/* feature start */
+.featureSection {
+   padding: 6rem 0rem;
+}
+
+.featureBox h3 {
+   line-height: 1.4;
+   font-size: 1.3125rem;
+   font-weight: 400;
+   margin-bottom: .5rem;
+   color: #161c2d;
+}
+
+.featureBox p {
+   color: #869ab8 !important;
+   margin-bottom: 2rem !important;
+   font-size: 1.0625rem;
+   line-height: 1.4;
+   font-weight: 400;
+}
+
+.why-quikk {
+   font-size: 32px;
+   font-weight: 900px !important;
+   margin-bottom: 20px;
+}
+
+/* feature end */

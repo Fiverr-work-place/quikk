@@ -1,0 +1,39 @@
+/* footer start */
+.footerSection {
+   padding: 3rem 0rem;
+   background-color: #f1f4f8;
+}
+
+.footerLogo p {
+   color: #506690;
+   font-size: 1.0625rem;
+   font-weight: 400;
+}
+
+.footerLink h6 {
+   letter-spacing: .08em;
+   color: #506690;
+   text-transform: uppercase !important;
+   font-weight: 600;
+   line-height: 1.55;
+   font-size: 13px;
+   margin-bottom: .5rem;
+}
+
+.footerLink a {
+   text-decoration: none;
+   color: #869ab8;
+   font-size: 1.0625rem;
+   font-weight: 400;
+}
+
+.footerLink a:hover {
+   text-decoration: underline;
+}
+
+.logo-img {
+   width: 200px;
+   height: auto;
+}
+
+/* footer end */

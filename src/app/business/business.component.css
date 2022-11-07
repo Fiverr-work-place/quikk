@@ -1,0 +1,33 @@
+
+.businessSection {
+    padding: 100px 0px;
+    background-color: #f1f4f8;
+
+}
+
+.businessContent h2 {
+    line-height: 1.35;
+    letter-spacing: -.01em;
+    margin-bottom: 1rem;
+    font-size: 1.9375rem;
+    font-weight: 400;
+    color: #161c2d;
+}
+
+.businessContent h2 span {
+    color: #335eea;
+}
+
+.businessContent p {
+    color: #506690;
+    font-size: 1.1875rem;
+    margin-bottom: 2rem;
+}
+@media (max-width:778px) {
+    .pe-5{
+        padding-right: 0rem !important;
+    }
+    .border-start {
+        border-left: none !important;
+      }
+}

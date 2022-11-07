@@ -1,0 +1,92 @@
+
+
+/* welcome section start */
+.welcomeSection {
+    padding-top: 6rem;
+ }
+ 
+ .welcomeHeading h1 {
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: 'HKGroteskRegular';
+    font-weight: normal;
+    font-style: normal;
+ }
+ 
+ .welcomeHeading p {
+    /* line-height: 1.2;
+    letter-spacing: -.02em; */
+    font-size: 1.3125rem;
+    font-weight: 400;
+    margin-bottom: 3rem !important;
+    color: #869ab8 !important;
+ }
+ 
+ .lift {
+    transition: box-shadow .25s ease, transform .25s ease;
+ }
+ 
+ .shadow {
+    box-shadow: 0 .5rem 1.5rem rgba(22, 28, 45, .1) !important;
+ }
+ 
+ .welcomeBtn .btn-primary {
+    border: 1px solid transparent;
+    border-radius: .375rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: .8125rem 1.25rem;
+    text-align: center;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    background-color: #335eea;
+    border: #335eea;
+    margin-right: 10px;
+ }
+ 
+ .welcomeBtn .btn-primary-soft {
+    border: 1px solid transparent;
+    border-radius: .375rem;
+    color: #335eea;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: .8125rem 1.25rem;
+    text-align: center;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    background-color: rgba(51, 94, 234, .1);
+    border: #335eea;
+ }
+ 
+ .welcomeBtn a:hover {
+    box-shadow: 0 1rem 2.5rem rgba(22, 28, 45, .1), 0 .5rem 1rem -.75rem rgba(22, 28, 45, .1) !important;
+    transform: translate3d(0, -3px, 0);
+ }
+ .welcomeImg{
+   box-shadow: 0px 1px 6px 0px #1c1c1c66;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+ 
+ /* welcome section end */
+ 
+ 

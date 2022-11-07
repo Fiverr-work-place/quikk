@@ -1,0 +1,17 @@
+@media (min-width: 1200px)
+{
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1040px !important;
+      }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,a,button {
+   font-family: 'HKGroteskRegular';
+
+}
