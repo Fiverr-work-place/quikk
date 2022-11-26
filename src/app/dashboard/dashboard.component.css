@@ -1,7 +1,147 @@
-.dashboard{
+.dashboard {
     padding: 60px 0px;
     background-color: #f1f4f8;
 }
-.dashboardImg img{
+.dashboardImg{
+    position: relative;
+}
+.dashboardImg img {
     box-shadow: 0px 4px 9px 0px #8484846b;
 }
+
+.plat {
+    font-size: 32px;
+    font-weight: 900px !important;
+    margin-bottom: 20px;
+}
+
+.tooltip-css1 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 7%;
+    top: 0.3%;
+}
+
+.tooltip-css2 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 32%;
+    top: 0.3%;
+}
+
+.tooltip-css3 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 42%;
+    top: 0.3%;
+}
+
+.tooltip-css4 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 52%;
+    top: 0.3%;
+}
+
+.tooltip-css5 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 81%;
+    top: 0.3%;
+}
+
+.tooltip-css6 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 90%;
+    top: 0.3%;
+}
+
+.tooltip-css7 {
+    background: #6c8aec;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+    box-shadow: 0 0 0 0 #2d39eb;
+    transform: scale(1);
+    animation: animationname 2s infinite;
+    border: none;
+    position: absolute;
+    left: 98%;
+    top: 0.3%;
+}
+
+@keyframes animationname {
+    0% {
+        transform: scale(.95);
+        box-shadow: 0 0 0 0 #2d39ebb3
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px #2d39eb00
+    }
+
+    to {
+        transform: scale(.95);
+        box-shadow: 0 0 0 0 #2d39eb00
+    }
+}
+
+
+@media (max-width:998px) {
+    .tooltip-css1,.tooltip-css2,.tooltip-css3,.tooltip-css4,.tooltip-css5,.tooltip-css6,.tooltip-css7{
+        width: 10px;
+        height: 10px;
+    }
+}
+

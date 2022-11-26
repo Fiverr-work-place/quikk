@@ -1,13 +1,51 @@
 /* brand start */
 .brandSection {
-    padding: 3rem 0rem;
+    padding: 3rem 0rem 0rem 0rem;
     border-top: 1px solid #f1f4f8;
-    border-bottom: 1px solid #f1f4f8;
+    /* border-bottom: 1px solid #f1f4f8; */
 }
 
 .brand-img {
-    width: 150px;
+    width: 180px;
     height: auto;
 }
+
+.brandHeading {
+    margin: 25px 0px;
+}
+
+.brandHeading h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.clientLogo img {
+    /* width: 200px; */
+    width: 270px;
+    height: auto;
+    margin: 5px 15px;
+}
+.client2Logo img {
+    width: 260px;
+    height: auto;
+    margin: 5px 8px;
+}
+.ss {
+    height: 250px !important;
+}
+@media (max-width:998px) {
+    .clientLogo img {
+        width: 150px;
+        margin: 5px 10px;
+    }
+    .client2Logo img {
+        width: 110px;
+        height: auto;
+        margin: 5px 0px;
+    }
+}
+
+
+
 
 /* brand end */

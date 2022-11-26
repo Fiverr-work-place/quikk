@@ -1,22 +1,32 @@
-.aboutSection{
+.aboutSection {
     padding: 6rem 0rem;
 }
+
 .about-us {
-    font-size: 45px;
-    font-weight: 900 !important;
-    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: 900px !important;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
-.aboutContent{
+
+.aboutContent {
     font-size: 17px;
     font-weight: 500;
-padding: 10px 0px;
+    padding: 10px 0px;
 }
-.aboutSection img{
+
+.aboutSection img {
     box-shadow: 1px 1px 5px 1px #22222252;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    height: 400px;
+}
+@media (max-width:778px) {
+    .aboutSection img {
+        height: auto;
+        width: 100%;
+    }
 }

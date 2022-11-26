@@ -137,8 +137,8 @@
 }
 
 .faq {
-  font-size: 32px;
-  font-weight: 1000px !important;
-  margin-bottom: 40px;
   color: white;
+  font-size: 32px;
+  font-weight: 900px !important;
+  margin-bottom: 20px;
 }

@@ -1,3 +1,17 @@
+@font-face {
+    font-family: Quikk;
+    font-weight: 400;
+    src: url(../assets/font/Quikk-Regular.woff2) format("woff2"),
+        url(../assets/font/Quikk-Regular.woff2) format("woff")
+}
 
+@font-face {
+    font-family: Quikk;
+    font-weight: 600;
+    src: url(../assets/font/Quikk-Medium.woff2) format("woff2"),
+        url(../assets/font/Quikk-Medium.woff2) format("woff")
+}
 
-
+body {
+    font-family: Quikk, sans-serif;
+}

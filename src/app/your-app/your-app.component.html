@@ -1,0 +1,31 @@
+<section class="dashboard">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mb-5 plat">Your App</h1>
+                <div class="dashboardImg">
+
+
+                    <ng-template #teams><p>Your App Name</p></ng-template>
+                    <button type="button" class="tooltip-css1" [ngbTooltip]="teams" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #activity><p>Usage monitoring - number of devs, APIs & calls per day</p></ng-template>
+                    <button type="button" class="tooltip-css2" [ngbTooltip]="activity" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #doc><p>Access your keys quickly & easily</p></ng-template>
+                    <button type="button" class="tooltip-css3" [ngbTooltip]="doc" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #support><p>Multiple key management- go live quickly</p></ng-template>
+                    <button type="button" class="tooltip-css4" [ngbTooltip]="support" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #golive><p>Fast key generation</p></ng-template>
+                    <button type="button" class="tooltip-css5" [ngbTooltip]="golive" triggers="click:red" tooltipClass="customtooltip"></button>
+
+
+               
+                    <img src="/assets/images/App.png" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

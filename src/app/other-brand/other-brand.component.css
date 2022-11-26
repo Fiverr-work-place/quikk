@@ -1,0 +1,74 @@
+.other {
+    padding: 3rem 0rem;
+}
+
+.brandHeading {
+    margin: 25px 0px;
+}
+
+.brandHeading span {
+    background-color: #335eea;
+    color: #fff;
+    padding: 8px 35px;
+    border-radius: 25px;
+    font-size: 17px;
+}
+
+.partnerLogo img {
+    /* width:250px; */
+
+    width: 350px;
+    height: auto;
+    margin: 0px 20px;
+}
+
+.investorLogo img:nth-child(1) {
+    width: 300px;
+}
+
+.investorLogo img:nth-child(2) {
+    width: 200px;
+    margin-top: -10px;
+}
+
+.otherBox {
+    width: 300px;
+    height: 145px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.otherBox span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+@media (max-width:998px) {
+    .partnerLogo img {
+        width: 140px;
+        margin: 0px 5px;
+    }
+
+    .investorLogo img:nth-child(1) {
+        width: 150px;
+    }
+
+    .investorLogo img:nth-child(2) {
+        width: 100px;
+    }
+    .otherBox {
+        width: 300px;
+        height: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .otherBox span {
+        font-size: 17px;
+        font-weight: 800;
+    }
+    
+}

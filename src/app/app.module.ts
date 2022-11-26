@@ -15,7 +15,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BusinessComponent } from './business/business.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AboutusComponent } from './aboutus/aboutus.component'
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { OtherBrandComponent } from './other-brand/other-brand.component';
+import { YourAppComponent } from './your-app/your-app.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { AboutusComponent } from './aboutus/aboutus.component'
     BusinessComponent,
     TestimonialComponent,
     DashboardComponent,
-    AboutusComponent
+    AboutusComponent,
+    OtherBrandComponent,
+    YourAppComponent
   ],
   imports: [
     BrowserModule,

@@ -2,8 +2,29 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center mb-5">The Platform</h1>
+                <h1 class="text-center mb-5 plat">The Platform</h1>
                 <div class="dashboardImg">
+                    <ng-template #teams><p>Manage multiple teams in one organization account</p></ng-template>
+                    <button type="button" class="tooltip-css1" [ngbTooltip]="teams" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #activity><p>Your  dashboard with all the details</p></ng-template>
+                    <button type="button" class="tooltip-css2" [ngbTooltip]="activity" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #doc><p>View API logs & status</p></ng-template>
+                    <button type="button" class="tooltip-css3" [ngbTooltip]="doc" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #support><p>Your Apps /Websites & the APIs they have access to</p></ng-template>
+                    <button type="button" class="tooltip-css4" [ngbTooltip]="support" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #golive><p>Clear, in-depth & searchable documentation</p></ng-template>
+                    <button type="button" class="tooltip-css5" [ngbTooltip]="golive" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #monitoring><p>Fast & focused developer support</p></ng-template>
+                    <button type="button" class="tooltip-css6" [ngbTooltip]="monitoring" triggers="click:red" tooltipClass="customtooltip"></button>
+
+                    <ng-template #sandbox><p>Your personal profile</p></ng-template>
+                    <button type="button" class="tooltip-css7" [ngbTooltip]="sandbox" triggers="click:red" tooltipClass="customtooltip"></button> 
+
                     <img src="/assets/images/dashboard.webp" width="100%" alt="">
                 </div>
             </div>
